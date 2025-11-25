@@ -13,6 +13,8 @@ let myName = "ganesh kalle"
   Dotmove= Number(move)
   console.log( typeof Dotmove)
 
+  console.log(myName)
+
 
   // datatyopes conversion 
   //to convert string into number use the Number Key for converting 
