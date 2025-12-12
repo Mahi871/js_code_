@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>i learn javascript</h1>
+    <button class="start">start</button>
+    <button class="stop">stop</button>
+</body>
+<script>
+
+    document.querySelector(".Start").addEventListener = function(){
+        const intervalId = setInterval( function(){
+            console.log("i am learning js", Date.now() );
+        },1000);
+
+        document.querySelector(".Stop").addEventListener = function(){
+            clearInterval( intervalId);
+        }
+    }   
+       
+    
+   
+
+    clearInterval( stoped);
+</script>
+</html>
